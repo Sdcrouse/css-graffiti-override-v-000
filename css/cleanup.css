@@ -22,3 +22,6 @@ div#wall .parent + .parent #tag-5.slick {
     display: none;
 }
 
+div#wall div.parent:nth-last-child(2) div:last-child div#tag-6 {
+    display: none;
+}
