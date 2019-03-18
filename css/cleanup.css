@@ -8,6 +8,7 @@
   display: none;
 }
 
-div#wall div#tag-3.slick { /*
+div#wall div#tag-3.slick { 
+  /* I could use #tag-3.slick.wicked, but adjoining classes don't work for IE6 and older browsers. */
     display: none;
 }
